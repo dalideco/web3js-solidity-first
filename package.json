@@ -1,0 +1,24 @@
+{
+  "name": "first-web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "tsc && node src/",
+    "start": "ts-node src/index.ts",
+    "start:dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/web3": "^1.2.2",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
